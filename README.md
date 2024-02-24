@@ -1,4 +1,4 @@
 # YanSimSaveFilemngr
 A basic Yandere Simulator Save File manager.
 
-Requirments : .net 4.0
+Requirements : .net 4.0
