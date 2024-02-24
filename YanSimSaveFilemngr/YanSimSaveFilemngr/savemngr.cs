@@ -6,22 +6,24 @@ namespace YanSimSaveFilemngr
 {
     class savemngr
     {
-        public static void SetInt(string key, int value)
-        {
-            Registry.SetValue(@"HKEY_CURRENT_USER\SOFTWARE\YandereDev\YandereSimulator", key, value, RegistryValueKind.DWord);
-        }
 
-        public static int GetInt(string key, int defaultValue = 0)
-        {
-            object value = Registry.GetValue(@"HKEY_CURRENT_USER\SOFTWARE\YandereDev\YandereSimulator", key, defaultValue);
-            if (value != null && value is int intValue)
-            {
-                return intValue;
-            }
-            return defaultValue;
-        }
+    public static void SetInt(string key, long value)
+    {
+        Registry.SetValue(@"HKEY_CURRENT_USER\SOFTWARE\YandereDev\YandereSimulator", key, value, RegistryValueKind.QWord);
+    }
 
-        public static string FindKeysWithCustomStrings(string searchString1, string searchString2)
+    public static long GetInt(string key, long defaultValue = 0)
+    {
+        object value = Registry.GetValue(@"HKEY_CURRENT_USER\SOFTWARE\YandereDev\YandereSimulator", key, defaultValue);
+        if (value != null && value is long longValue)
+        {
+            return longValue;
+        }
+        return defaultValue;
+    }
+
+
+    public static string FindKeysWithCustomStrings(string searchString1, string searchString2)
         {
             using (RegistryKey key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\YandereDev\YandereSimulator"))
             {
