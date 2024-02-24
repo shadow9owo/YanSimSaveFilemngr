@@ -11,6 +11,7 @@ Requirements : .net 4.0
   and then you should be good to go
 
   or you can also try to modify the values on a loading screen before the game loads 
+  
   (i didnt test that but it could work)
 
 tested with the jan 13th 2024 build
