@@ -131,6 +131,7 @@ namespace YanSimSaveFilemngr
             this.textBox2.Size = new System.Drawing.Size(193, 20);
             this.textBox2.TabIndex = 8;
             this.textBox2.TabStop = false;
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // button2
             // 
@@ -162,6 +163,7 @@ namespace YanSimSaveFilemngr
             this.textBox3.Size = new System.Drawing.Size(193, 20);
             this.textBox3.TabIndex = 11;
             this.textBox3.TabStop = false;
+            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // button3
             // 
@@ -237,6 +239,7 @@ namespace YanSimSaveFilemngr
             this.textBox4.Size = new System.Drawing.Size(193, 20);
             this.textBox4.TabIndex = 18;
             this.textBox4.TabStop = false;
+            this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox4_KeyPress);
             // 
             // button8
             // 
@@ -268,6 +271,7 @@ namespace YanSimSaveFilemngr
             this.textBox5.Size = new System.Drawing.Size(193, 20);
             this.textBox5.TabIndex = 21;
             this.textBox5.TabStop = false;
+            this.textBox5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox5_KeyPress);
             // 
             // button9
             // 
