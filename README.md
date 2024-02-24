@@ -10,8 +10,7 @@ Requirements : .net 4.0
   so youre gonna have to save on tuesday and then close the game and then modify the values
   and then you should be good to go
 
-  or you can also try to modify the values on a loading screen before the game loads 
-  
+  or you can also try to modify the values on a loading screen before the game loads <br>
   (i didnt test that but it could work)
 
 tested with the jan 13th 2024 build
