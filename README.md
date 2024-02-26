@@ -3,6 +3,10 @@ A basic Yandere Simulator Save File manager / external cheat.
 
 Requirements : .net 4.0
 
+# warning
+
+* use with caution as you may corrupt your save file
+
 # Features
 
 * infinite money
