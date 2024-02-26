@@ -12,7 +12,6 @@ use with caution as you may corrupt your save file
 * set reputation
 * set study points
 * set info points
-* true pacifist mode - bluescreens the pc when you kill someone
 * the ability to export saves to a .reg file
 * numbness lock (mostlikely dosent work as expected this is suppoused to lock the sanity)
 * school population managment (kill / unkill everyone and expel / unexpel everyone)
