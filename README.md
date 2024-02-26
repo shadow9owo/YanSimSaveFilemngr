@@ -1,11 +1,9 @@
 # YanSimSaveFilemngr
 A basic Yandere Simulator Save File manager / external cheat.
 
+use with caution as you may corrupt your save file
+
 Requirements : .net 4.0
-
-# warning
-
-* use with caution as you may corrupt your save file
 
 # Features
 
