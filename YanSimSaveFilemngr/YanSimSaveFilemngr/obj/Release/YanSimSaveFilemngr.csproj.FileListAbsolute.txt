@@ -1,0 +1,12 @@
+C:\Users\shadowdev\Desktop\YanSimSaveFilemngr\YanSimSaveFilemngr\bin\Release\YanSimSaveFilemngr.exe
+C:\Users\shadowdev\Desktop\YanSimSaveFilemngr\YanSimSaveFilemngr\bin\Release\YanSimSaveFilemngr.pdb
+C:\Users\shadowdev\Desktop\YanSimSaveFilemngr\YanSimSaveFilemngr\obj\Release\YanSimSaveFilemngr.credits.resources
+C:\Users\shadowdev\Desktop\YanSimSaveFilemngr\YanSimSaveFilemngr\obj\Release\YanSimSaveFilemngr.form.resources
+C:\Users\shadowdev\Desktop\YanSimSaveFilemngr\YanSimSaveFilemngr\obj\Release\YanSimSaveFilemngr.Form1.resources
+C:\Users\shadowdev\Desktop\YanSimSaveFilemngr\YanSimSaveFilemngr\obj\Release\YanSimSaveFilemngr.Properties.Resources.resources
+C:\Users\shadowdev\Desktop\YanSimSaveFilemngr\YanSimSaveFilemngr\obj\Release\YanSimSaveFilemngr.csproj.GenerateResource.cache
+C:\Users\shadowdev\Desktop\YanSimSaveFilemngr\YanSimSaveFilemngr\obj\Release\YanSimSaveFilemngr.csproj.CoreCompileInputs.cache
+C:\Users\shadowdev\Desktop\YanSimSaveFilemngr\YanSimSaveFilemngr\obj\Release\YanSimSaveFilemngr.exe
+C:\Users\shadowdev\Desktop\YanSimSaveFilemngr\YanSimSaveFilemngr\obj\Release\YanSimSaveFilemngr.pdb
+C:\Users\shadowdev\Desktop\YanSimSaveFilemngr\YanSimSaveFilemngr\obj\Release\YanSimSaveFilemngr.csproj.AssemblyReference.cache
+C:\Users\shadowdev\Desktop\YanSimSaveFilemngr\YanSimSaveFilemngr\obj\Release\YanSimSaveFilemngr.csproj.CopyComplete
