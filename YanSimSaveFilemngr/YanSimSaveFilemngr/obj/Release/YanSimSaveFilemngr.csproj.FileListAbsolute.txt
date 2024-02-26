@@ -9,4 +9,3 @@ C:\Users\shadowdev\Desktop\YanSimSaveFilemngr\YanSimSaveFilemngr\obj\Release\Yan
 C:\Users\shadowdev\Desktop\YanSimSaveFilemngr\YanSimSaveFilemngr\obj\Release\YanSimSaveFilemngr.exe
 C:\Users\shadowdev\Desktop\YanSimSaveFilemngr\YanSimSaveFilemngr\obj\Release\YanSimSaveFilemngr.pdb
 C:\Users\shadowdev\Desktop\YanSimSaveFilemngr\YanSimSaveFilemngr\obj\Release\YanSimSaveFilemngr.csproj.AssemblyReference.cache
-C:\Users\shadowdev\Desktop\YanSimSaveFilemngr\YanSimSaveFilemngr\obj\Release\YanSimSaveFilemngr.csproj.CopyComplete
