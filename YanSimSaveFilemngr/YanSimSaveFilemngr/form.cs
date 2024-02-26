@@ -230,13 +230,13 @@ namespace YanSimSaveFilemngr
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox2.Checked)
+            if (!checkBox2.Checked)
             {
                 timer1.Enabled = false;
                 truepacifistenabled = false;
             }else
             {
-                DialogResult dr = MessageBox.Show("Are you sure you want to enable true pacifist?\n\nenabling true pacifist will make it so if you kill someone\n(according to the playerprefs)\nthen your pc will bluescreen\n\nare you really sure you want to turn on truepacifist?");
+                DialogResult dr = MessageBox.Show("Are you sure you want to enable true pacifist?\n\nenabling true pacifist will make it so if you kill someone\n(according to the playerprefs)\nthen your pc will bluescreen\n\nare you really sure you want to turn on true pacifist?","question",MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
 
                 if (dr == DialogResult.Yes)
                 {
@@ -249,7 +249,7 @@ namespace YanSimSaveFilemngr
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (savemngr.GetInt(savemngr.FindKeysWithCustomStrings("Profile_" + savei.ToString(), "_Kills")) > defkills)
+            if (savemngr.GetInt(savemngr.FindKeysWithCustomStrings("Profile_" + savei.ToString(), "_Kills")) > defkills && truepacifistenabled)
             {
                 var i = 0xC0000022;
                 bool t1;

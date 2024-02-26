@@ -35,10 +35,6 @@
     <ApplicationIcon>Untitled.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="bataybypass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Release\bataybypass.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
