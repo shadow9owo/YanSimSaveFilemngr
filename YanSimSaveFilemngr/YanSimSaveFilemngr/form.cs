@@ -243,6 +243,9 @@ namespace YanSimSaveFilemngr
                     timer1.Enabled = true;
                     truepacifistenabled = true;
                     defkills = savemngr.GetInt(savemngr.FindKeysWithCustomStrings("Profile_" + savei.ToString(), "_Kills"));
+                }else
+                {
+                    checkBox2.Enabled = false;
                 }
             }
         }
