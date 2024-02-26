@@ -1,5 +1,5 @@
 # YanSimSaveFilemngr
-A basic Yandere Simulator Save File manager.
+A basic Yandere Simulator Save File manager / external cheat.
 
 Requirements : .net 4.0
 
