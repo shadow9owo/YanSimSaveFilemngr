@@ -13,5 +13,5 @@ Requirements : .net 4.0
 
 # Executable info
 
-* virustotal - <a href="https://www.virustotal.com/gui/file/f52a6274544e245133230adf5938aea5bd2a3c16da45d71cb2b98f9e0f6d7bd9?nocache=1">4/70 virustotal (false positive AI detections)</a>
+* virustotal - <a href="https://www.virustotal.com/gui/file/f9efabc86aefcaea98b75cbf589bc61157d451c463d4f6fc59eff84c74e9e2ca?nocache=1">4/72 virustotal (false positive AI detections)</a>
 * md5 checksum - 1e51e22addccc7379108cd31957dc9bf (1.0.0.4)
