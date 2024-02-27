@@ -20,7 +20,7 @@ use with caution as you may corrupt your save file
 # Executable info
 
 * virustotal - <a href="https://www.virustotal.com/gui/file/6ae01e98cbdf530590b2392270b059ae06205cc2cda3b841e1a8d9be876d1957?nocache=1">3/69 virustotal (AI antiviruses mostly flag it as a false positive)</a>
-* md5 checksum - 930b120b88ffdebfa86935130d9912e9 (1.0.0.8)
+* md5 checksum - 79b948a5a57fb505a482528e80fe4682 (1.0.0.9)
 
 # notes
 
