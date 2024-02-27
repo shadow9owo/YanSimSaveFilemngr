@@ -17,6 +17,8 @@ use with caution as you may corrupt your save file
 * school population managment (kill / unkill everyone and expel / unexpel everyone)
 * the ability to inject text to the title of the yansim window
 
+* works with 89s mode
+
 # Executable info
 
 * virustotal - <a href="https://www.virustotal.com/gui/file/d23bcf20710c2b894fd34d7e94388b6e4e87f403c36c7c8d0bef82ac9297c9d0">4/70 virustotal (AI antiviruses mostly flag it as a false positive)</a>
