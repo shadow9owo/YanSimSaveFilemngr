@@ -21,7 +21,7 @@ use with caution as you may corrupt your save file
 
 # Executable info
 
-* virustotal - <a href="https://www.virustotal.com/gui/file/2773bcf517cf318108f6d4519ff0248b9d602607d51c880cf0fd671299333fc9?nocache=1">4/70 virustotal (AI antiviruses mostly flag it as a false positive)</a>
+* virustotal - <a href="https://www.virustotal.com/gui/file-analysis/ZjczY2UzNmE1YzYwY2Y5YzVkZmRjN2Y5OTRmOTg1ODc6MTcwOTA1MjkxMQ==">4/70 virustotal (AI antiviruses mostly flag it as a false positive)</a>
 * md5 checksum - a0ee16132b1d42a5b00ee0f7916af34f (1.0.1.0)
 
 # notes
