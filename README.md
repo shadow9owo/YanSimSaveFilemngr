@@ -8,6 +8,9 @@ use with caution as you may corrupt your save file
 
 # !!!Warning 89 mode has an anticheat!!!
 
+* what do you mean - dude just trust me dont try to hack in 89s mode
+* youtube video with proof soon
+
 # Features
 
 * infinite money
