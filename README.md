@@ -14,7 +14,7 @@ use with caution as you may corrupt your save file
 * set info points
 * the ability to export saves to a .reg file
 * numbness lock (mostlikely dosent work as expected this is suppoused to lock the sanity)
-* school population managment (kill / unkill everyone and expel / unexpel everyone)
+* school population managment (kill / unkill everyone and expel / unexpel everyone) - note this dosent work on monday as the values this is trying to change dont exist on monday
 * the ability to inject text to the title of the yansim window
 * works with 89s mode
 
