@@ -67,6 +67,7 @@ namespace YanSimSaveFilemngr
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button11 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // linkLabel2
@@ -455,6 +456,19 @@ namespace YanSimSaveFilemngr
             this.label3.TabIndex = 50;
             this.label3.Text = "window title text:";
             // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox4.Location = new System.Drawing.Point(47, 360);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(98, 24);
+            this.checkBox4.TabIndex = 53;
+            this.checkBox4.Text = "89s mode";
+            this.checkBox4.UseVisualStyleBackColor = false;
+            this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
+            // 
             // form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -462,6 +476,7 @@ namespace YanSimSaveFilemngr
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.label3);
@@ -547,5 +562,6 @@ namespace YanSimSaveFilemngr
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.CheckBox checkBox4;
     }
 }
