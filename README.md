@@ -27,3 +27,5 @@ use with caution as you may corrupt your save file
 # notes
 
 * True pacifist was removed due to the kill playerprefs variable being updated too late (so it was useless)
+
+* if a value is null or not found try doing something that triggers it for example if the study points value is null just study and then go home to save it and then try again
