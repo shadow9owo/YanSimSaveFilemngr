@@ -7,6 +7,23 @@ using Microsoft.Win32;
 
 public class savemngr
 {
+    [DllImport("user32.dll", CharSet = CharSet.Unicode)]
+    private static extern bool SetWindowText(IntPtr hWnd, string lpString);
+
+    public static void injecttxt(int processId, string newTitle)
+    {
+        Process process = Process.GetProcessById(processId);
+
+        if (process != null && process.MainWindowHandle != IntPtr.Zero)
+        {
+            SetWindowText(process.MainWindowHandle, newTitle);
+        }
+        else
+        {
+            Console.WriteLine("Process not found or does not have a main window.");
+        }
+    }
+
     public static int GetInt(string key)
     {
         object value = Registry.GetValue(@"HKEY_CURRENT_USER\SOFTWARE\YandereDev\YandereSimulator", key, null);

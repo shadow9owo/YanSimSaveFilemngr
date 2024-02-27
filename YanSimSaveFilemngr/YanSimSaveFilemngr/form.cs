@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
 using Microsoft.Win32;
+using System.Diagnostics;
 
 namespace YanSimSaveFilemngr
 {
@@ -38,6 +39,17 @@ namespace YanSimSaveFilemngr
 
         private void form_FormClosing(object sender, FormClosingEventArgs e)
         {
+            Process[] processes = Process.GetProcesses();
+
+            foreach (Process p in processes)
+            {
+                if (p.ProcessName.ToLower().Contains("yandere"))
+                {
+                    savemngr.injecttxt(p.Id, "YandereSimulator");
+                    break;
+                }
+            }
+
             Environment.Exit(0);
         }
 
@@ -331,6 +343,20 @@ namespace YanSimSaveFilemngr
         private void timer2_Tick(object sender, EventArgs e)
         {
             savemngr.SetInt(savemngr.FindKeysWithCustomStrings("Profile_" + savei.ToString(), "_Numbness"), 0);
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Process[] processes = Process.GetProcesses();
+
+            foreach (Process p in processes)
+            {
+                if (p.ProcessName.ToLower().Contains("yandere"))
+                {
+                    savemngr.injecttxt(p.Id,"YandereSimulator " + textBox2.Text.ToString());
+                    break;
+                }
+            }
         }
     }
 }

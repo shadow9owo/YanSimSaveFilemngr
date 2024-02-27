@@ -64,6 +64,9 @@ namespace YanSimSaveFilemngr
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button11 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // linkLabel2
@@ -296,9 +299,9 @@ namespace YanSimSaveFilemngr
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(384, 56);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(134, 29);
+            this.label7.Size = new System.Drawing.Size(141, 29);
             this.label7.TabIndex = 33;
-            this.label7.Text = "Infopoints:";
+            this.label7.Text = "Info points:";
             // 
             // label9
             // 
@@ -422,6 +425,36 @@ namespace YanSimSaveFilemngr
             this.label14.TabIndex = 49;
             this.label14.Text = "(this most likely wont work)";
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(445, 292);
+            this.textBox2.MaxLength = 128;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(158, 20);
+            this.textBox2.TabIndex = 52;
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(623, 290);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(75, 23);
+            this.button11.TabIndex = 51;
+            this.button11.TabStop = false;
+            this.button11.Text = "inject text";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(432, 248);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(207, 29);
+            this.label3.TabIndex = 50;
+            this.label3.Text = "window title text:";
+            // 
             // form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -429,6 +462,9 @@ namespace YanSimSaveFilemngr
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.checkBox3);
@@ -508,5 +544,8 @@ namespace YanSimSaveFilemngr
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Label label3;
     }
 }
