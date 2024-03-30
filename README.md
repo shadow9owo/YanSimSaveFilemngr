@@ -18,7 +18,7 @@ use with caution as you may corrupt your save file
   - note this dosent work on monday as the values this is trying to change dont exist on monday
 * the ability to inject text to the title of the yansim window
 * works with 89s mode
-* works with mission mode
+* works with mission mode (unteseted)
 
 # Executable info
 
