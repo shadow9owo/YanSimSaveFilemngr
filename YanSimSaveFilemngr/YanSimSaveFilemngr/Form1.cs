@@ -124,5 +124,16 @@ namespace YanSimSaveFilemngr
                 return $"{value}";
             }
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            DialogResult dr = MessageBox.Show("Are you sure you want to modify the mission mode save file?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dr == DialogResult.Yes)
+            {
+                form form = new form(4);
+                form.Show();
+                this.Hide();
+            }
+        }
     }
 }

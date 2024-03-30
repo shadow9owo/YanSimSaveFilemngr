@@ -69,6 +69,7 @@ namespace YanSimSaveFilemngr
             this.label3 = new System.Windows.Forms.Label();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.label15 = new System.Windows.Forms.Label();
+            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // linkLabel2
@@ -480,6 +481,19 @@ namespace YanSimSaveFilemngr
             this.label15.TabIndex = 54;
             this.label15.Text = "/\\ (dosent work in 89s mode) /\\";
             // 
+            // linkLabel3
+            // 
+            this.linkLabel3.AutoSize = true;
+            this.linkLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel3.Location = new System.Drawing.Point(414, 423);
+            this.linkLabel3.Name = "linkLabel3";
+            this.linkLabel3.Size = new System.Drawing.Size(166, 20);
+            this.linkLabel3.TabIndex = 55;
+            this.linkLabel3.TabStop = true;
+            this.linkLabel3.Text = "choose a different slot";
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
+            // 
             // form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -487,6 +501,7 @@ namespace YanSimSaveFilemngr
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.linkLabel3);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.textBox2);
@@ -576,5 +591,6 @@ namespace YanSimSaveFilemngr
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.LinkLabel linkLabel3;
     }
 }

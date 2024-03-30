@@ -35,6 +35,8 @@ namespace YanSimSaveFilemngr
                         return "2";
                     case 3:
                         return "3";
+                    case 4:
+                        return "";
                     default:
                         return "";
                 }
@@ -388,8 +390,18 @@ namespace YanSimSaveFilemngr
 
         private void checkBox4_CheckedChanged(object sender, EventArgs e)
         {
-            _90smode = checkBox4.Checked;
-            Console.WriteLine(_90smode);
+            if (savei != 4)
+            {
+                _90smode = checkBox4.Checked;
+                Console.WriteLine(_90smode);
+            }
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form1 form1 = new Form1();
+            this.Hide();
+            form1.ShowDialog();
         }
     }
 }
