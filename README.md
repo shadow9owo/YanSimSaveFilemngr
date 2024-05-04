@@ -3,8 +3,6 @@ A basic Yandere Simulator Save File manager / external cheat.
 
 use with caution as you may corrupt your save file
 
-!! outdated !!
-
 # Requirements 
 * .net 4.0
 
