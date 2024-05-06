@@ -24,7 +24,7 @@ use with caution as you may corrupt your save file
 
 # Executable info
 
-* virustotal - <a href="[https://www.virustotal.com/gui/file/ff7935c8fd792dd4be41dd429d45d28cecc1ede10e10159b1a7040013d089bfe">9/72 most of the detections are mainly cus of the dll injection feature</a>
+* virustotal - <a href="https://www.virustotal.com/gui/file/ff7935c8fd792dd4be41dd429d45d28cecc1ede10e10159b1a7040013d089bfe">9/72 most of the detections are mainly cus of the dll injection feature</a>
 * md5 checksum - d39d1958e89025a3c756842122e04c5a (1.0.1.3)
 
 # notes
