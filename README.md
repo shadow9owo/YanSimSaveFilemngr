@@ -20,7 +20,7 @@ use with caution as you may corrupt your save file
 * works with 89s mode
 * works with mission mode (unteseted)
 * trigger anti-cheat (yes)
-* DLL injection (unstable but works) fork of <a href="https://github.com/ihack4falafel/DLL-Injection/">
+* DLL injection (unstable but works) fork of <a href="https://github.com/ihack4falafel/DLL-Injection/">https://github.com/ihack4falafel/DLL-Injection/</a>
 
 # Executable info
 
