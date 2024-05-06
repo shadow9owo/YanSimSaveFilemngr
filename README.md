@@ -1,5 +1,5 @@
 # YanSimSaveFilemngr
-A basic Yandere Simulator Save File manager / external cheat.
+An Yandere Simulator Save File manager / external cheat.
 
 use with caution as you may corrupt your save file
 
