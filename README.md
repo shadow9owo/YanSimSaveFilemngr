@@ -20,12 +20,12 @@ use with caution as you may corrupt your save file
 * works with 89s mode
 * works with mission mode (unteseted)
 * trigger anti-cheat (yes)
-* DLL injection (unstable but works)
+* DLL injection (unstable but works) fork of <a href="https://github.com/ihack4falafel/DLL-Injection/">
 
 # Executable info
 
-* virustotal - <a href="https://www.virustotal.com/gui/file/7ea2d827a1e5a5b7d808d0c075493373d4726f1e9c5f1fa3fcaa8719ac71f6b4?nocache=1">9/73 most of the detections are mainly cus of the dll injection feature</a>
-* md5 checksum - 6aa1df3adf63b1b435f6445692a444a0 (1.0.1.4)
+* virustotal - <a href="https://www.virustotal.com/gui/file/a534a60a93ca0a15363a0f1496de3e420ef18b74fda40e1e5bd7362f14dae527?nocache=1)">9/73 most of the detections are mainly cus of the dll injection feature</a>
+* md5 checksum - 07f7b8e512e8c36e3f24791302a1decb (1.0.1.4)
 
 # notes
 
