@@ -4,7 +4,7 @@ An Yandere Simulator Save File manager / external cheat.
 use with caution as you may corrupt your save file
 
 # Requirements 
-* .net 4.0
+* .net 3.5
 
 # Features
 
@@ -20,12 +20,12 @@ use with caution as you may corrupt your save file
 * works with 89s mode
 * works with mission mode (unteseted)
 * trigger anti-cheat (yes)
-* DLL injection (untested)
+* DLL injection (unstable but works)
 
 # Executable info
 
-* virustotal - <a href="https://www.virustotal.com/gui/file/ff7935c8fd792dd4be41dd429d45d28cecc1ede10e10159b1a7040013d089bfe">9/72 most of the detections are mainly cus of the dll injection feature</a>
-* md5 checksum - d39d1958e89025a3c756842122e04c5a (1.0.1.3)
+* virustotal - <a href="https://www.virustotal.com/gui/file/7ea2d827a1e5a5b7d808d0c075493373d4726f1e9c5f1fa3fcaa8719ac71f6b4?nocache=1">9/73 most of the detections are mainly cus of the dll injection feature</a>
+* md5 checksum - 6aa1df3adf63b1b435f6445692a444a0 (1.0.1.4)
 
 # notes
 
